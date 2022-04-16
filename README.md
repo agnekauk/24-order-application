@@ -12,7 +12,6 @@ Github pages
 CSS
 Web content
 Responsive design
-Progress bar animation
 Javascript
 
 Authors: Agne
