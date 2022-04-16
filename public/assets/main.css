@@ -1,0 +1,137 @@
+body {
+    background-image: url('./img/pexels-photo-3972703.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    padding:10px;
+}
+
+.title {
+    margin: 10px 0px 0px 32px;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #80958e
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li {
+    display: flex;
+    border: solid 0.5px #fff;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: black;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.contents {
+    padding: 10px;
+}
+
+.bubble {
+    margin-top: 18px;
+}
+
+.product-card {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span {
+    margin-right: 20px;
+}
+
+.specialPrice {
+    color: red;
+}
+
+.originalPrice {
+    text-decoration: line-through;
+}
+
+.form-group {
+    margin-left: 32px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+    font-size: 20px;
+    border-color: #fff;
+}
+
+.alert-success {
+    background-color: rgb(188, 225, 188);
+}
+
+.messages {
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+.totals {
+    margin: 12px 34px 0px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color:#fff;
+}
+
+#newOrderForm {
+    display: none;
+}
+
+#newOrderForm.show {
+    display: block;
+}
+
+.add-new-order {
+    padding: 1rem;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+#order-list {
+        display: none;
+}
+
+#order-list.show {
+    display: block;
+}
+
+.bottom {
+    margin-left: 0;
+    margin-top: 30px;
+}
