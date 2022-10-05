@@ -31,6 +31,11 @@ index.js -> const init -> try -> app.listen(3011);
 
 public -> assets -> common.js -> const url = 'http://localhost:3011';
 
+To check out the project online, after instalation:
+
+-   npm start;
+-   open http://localhost:3011 in web-browser;
+
 ### Authors
 
 Agne: [Github](https://github.com/agnekauk)
