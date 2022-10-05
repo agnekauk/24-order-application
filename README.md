@@ -1,27 +1,36 @@
-LICENSE Security Status Gluten Status Eco Status List To Do
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
+![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
+![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-32 group website project
+# ORDER-APPLICATION
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+_32 group website project_
 
-Site published at:
+This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! **_Thank you for your cooperation!_**
 
-Project features
+## Project features
 
-Github pages
-CSS
-Web content
-Responsive design
-Javascript
+-   **_Mongo DB_**
+-   **_Javascript_**
+-   **_Nodejs_**
+-   **_CSS_**
+-   **_Bootstrap_**
+-   **_Responsive design_**
+-   **_CRUD_**
 
-Authors: Agne
-
-Agne: Github
-Instalation instructions
+### Instalation instructions
 
 $ npm install
 
-Port set to 3011. If you want to change port go:
+Port is set to 3011. If you want to change port go:
 
 index.js -> const init -> try -> app.listen(3011);
+
+&
+
 public -> assets -> common.js -> const url = 'http://localhost:3011';
+
+### Authors
+
+Agne: [Github](https://github.com/agnekauk)
